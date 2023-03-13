@@ -1,0 +1,23 @@
+/* body{
+    background-color: #e0e0e0;   
+}  */
+body{
+  background-color: #28176bee;   
+}
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.shape::after{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 40%;
+  right: -14%;
+  transform: rotate(45deg);
+  background:white;
+}
